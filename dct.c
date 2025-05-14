@@ -16,7 +16,7 @@ int main() {
     int n;
 
     // Le a ordem da matriz
-    printf("Entre a ordem da matriz: ");
+    //printf("Entre a ordem da matriz: ");
     if (scanf("%d", &n) != 1 || n <= 0) {
         printf("Erro: Entrada inválida para uma ordem da matriz.\n");
         return 1;
@@ -42,7 +42,7 @@ int main() {
     }
 
     // Le os elementos da matriz
-    printf("Entre os elementos da matriz:\n");
+    //printf("Entre os elementos da matriz:\n");
     for (int i = 0; i < n; i++) {
         for (int j = 0; j < n; j++) {
             if (scanf("%f", &p_xy[i][j]) != 1) {
@@ -100,7 +100,7 @@ int main() {
     }
 
     // Imprime o resultado da matriz DCT
-    printf("\nMatriz DCT (G_ij):\n");
+    //printf("\nMatriz DCT (G_ij):\n");
     for (int i = 0; i < n; i++) {
         for (int j = 0; j < n; j++) {
             printf("%9.3f", g_ij[i][j]);
